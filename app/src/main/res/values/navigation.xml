@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	This is a configuration file for navigation menu. You can add/remove/modify menu items as you need.
+	Important: each of these 4 arrays below must contain the same number of items.
+	-->
+
+	<!-- List of titles in navigation drawer menu -->
+	<string-array name="navigation_title_list">
+        <item>Find</item>
+		<item>Add your Shop</item>
+		<item>Claim your Shop</item>
+		<item>Advertise</item>
+		<item>FAQs</item>
+		<item>About Us</item>
+		<item>Careers</item>
+		<item>Fund Us</item>
+		<item>Contact Us</item>
+
+	</string-array>
+
+	<!--
+	List of webview URLs. You can specify URL link to a web page on the Internet or
+	URL link to a local page stored in assets directory. Local page does not require Internet connection.
+	URL to the local page must be in this format: file:///android_asset/example.html
+	-->
+	<string-array name="navigation_url_list">
+        <item>http://magarmach.com</item>
+		<item>http://magarmach.com/add-your-shop/</item>
+		<item>http://magarmach.com/claim-your-shop/</item>
+		<item>http://magarmach.com/advertise-with-us/</item>
+		<item>http://magarmach.com/faq/</item>
+		<item>http://magarmach.com/aboutus/</item>
+		<item>http://magarmach.com/careers/</item>
+		<item>http://magarmach.com/fund-us/</item>
+		<item>http://magarmach.com/contact-us/</item>
+
+	</string-array>
+
+	<!-- List of icons in navigation drawer menu -->
+	<string-array name="navigation_icon_list">
+        <item>@drawable/ic_drawer_search</item>
+		<item>@drawable/ic_drawer_home</item>
+		<item>@drawable/ic_drawer_favorite</item>
+		<item>@drawable/ic_drawer_stats</item>
+		<item>@drawable/ic_drawer_help</item>
+		<item>@drawable/ic_drawer_about</item>
+        <item>@drawable/ic_drawer_education</item>
+        <item>@drawable/ic_drawer_price</item>
+        <item>@drawable/ic_drawer_support</item>
+
+	</string-array>
+
+	<!--
+	List of share messages. Each webview page can be shared via e-mail, sms, social networks etc.
+	Share button is in the action bar. You can specify a message which gonna be posted.
+	If you don't want to share the page, keep the item empty.
+	-->
+	<string-array name="navigation_share_list">
+		<item></item>
+		<item>Hey, add your shop on Magarmach. Click here: http://magarmach.com/add-your-shop/</item>
+		<item>Hey, claim your shop on Magarmach. Click here: http://magarmach.com/claim-your-shop/  </item>
+		<item>Great advertising opportunity.Check the link.  http://magarmach.com/advertise-with-us/</item>
+		<item>See this link for FAQs at Magarmach. http://magarmach.com/faq/</item>
+		<item>Checkout the Magarmach team here. http://magarmach.com/aboutus/</item>
+        <item>Apply for Internships at Magarmach http://magarmach.com/careers/</item>
+        <item>Interesting startup. Checkout. http://magarmach.com/fund-us/</item>
+        <item>Contact info of Magarmach. http://magarmach.com/contact-us/</item>
+	</string-array>
+</resources>
